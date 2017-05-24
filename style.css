@@ -1,0 +1,26 @@
+
+#img1 {
+	width: 200px;
+}
+
+.good-item {
+	background-image: url("img/suncloud.png");
+	position: absolute;
+	width: 42px;
+	height: 42px;
+	z-index: 1;
+/*	background-color: #00ff00;
+	box-shadow: 10px 10px 10px blue;*/
+}
+
+.game {	
+	background-image: url("assets/bg.png");
+	width: 600px;
+	height: 600px;
+	background-color: white;
+	margin: 30px auto;
+	position: absolute;
+
+p {
+
+}
