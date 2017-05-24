@@ -1,3 +1,10 @@
+p {
+	margin-left: 300px;
+	margin-top: 300px;
+	position: absolute;
+	font-family: "Helvetica";
+	font-size: 9pt;
+}
 
 #img1 {
 	width: 200px;
@@ -21,6 +28,3 @@
 	margin: 30px auto;
 	position: absolute;
 
-p {
-
-}

@@ -7,7 +7,7 @@ var units = '&units=metric';
 var input;
 
 function setup() {
-  createCanvas(768, 768);
+  createCanvas(500, 500);
 
   var button = select('#submit');
   button.mousePressed(weatherAsk);
@@ -34,8 +34,12 @@ function draw() {
     var temp = weather.main.temp;
     var humidity = weather.main.humidity;
     var pressure = weather.main.pressure;
-    ellipse(192, 484, temp*3, temp*3);
+    stroke(153)
+    fill("#FF0000")
+    ellipse(192, 284, temp*3, temp*3);
+    fill("#00BCFF")
     ellipse(humidity*5, humidity*5, humidity*3, humidity*3);
+    fill("#D09CC7")
     ellipse(pressure/5, pressure/5, pressure/10, pressure/10);
 
 
